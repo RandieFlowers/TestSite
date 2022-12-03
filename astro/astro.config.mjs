@@ -15,7 +15,6 @@ export default defineConfig({
       apiVersion: 'v2021-03-25',
       useCdn: true,
       site: 'https://randieflowers.github.io',
-      base: '/TestSite',
     }),
   ],
 });
