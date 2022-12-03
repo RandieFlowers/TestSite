@@ -10,10 +10,12 @@ export default defineConfig({
   integrations: [
     sitemap(),
     sanity({
-      projectId: '8hj1t7km',
+      projectId: 'u6k83y2h',
       dataset: 'production',
       apiVersion: 'v2021-03-25',
       useCdn: true,
+      site: 'randieflowers.github.io',
+      base: '/TestSite',
     }),
   ],
 });
