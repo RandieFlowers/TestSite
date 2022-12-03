@@ -14,7 +14,7 @@ export default defineConfig({
       dataset: 'production',
       apiVersion: 'v2021-03-25',
       useCdn: true,
-      site: 'randieflowers.github.io',
+      site: 'https://randieflowers.github.io',
       base: '/TestSite',
     }),
   ],
